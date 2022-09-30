@@ -129,18 +129,12 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px) {
-    body {
-        
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-
- 
-
-   
-    
-
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
+
+ }    
 
   
