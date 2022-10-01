@@ -152,14 +152,31 @@ img {
         width: 100%;
     }
 
-    img{
-        width: 300px;
+    .lessons img{
+        height: 400px;
     }
 
     .card{
         display: flex;
         flex-direction: column;
+        text-align: center;
         
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 4rem;
+        
+    }
+
+    .why-us .col{
+        width: 100%;
+        margin-bottom: 4rem;
     }
    }    
   
